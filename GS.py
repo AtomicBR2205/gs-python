@@ -159,7 +159,7 @@ class LinkedInSPA:
         return True, "Válida"
     
     def _validar_username(self, username: str) -> Tuple[bool, str]:
-        """Valida username"""
+        """Valida usuário"""
         username = username.strip()
         if len(username) < self.MIN_USERNAME_LEN:
             return False, f"Mín. {self.MIN_USERNAME_LEN} caracteres"
@@ -188,7 +188,7 @@ class LinkedInSPA:
         print("=" * 60)
         
         try:
-            # Username
+            # Usuário
             while True:
                 username = input("\n👤 Username: ").strip()
                 valido, msg = self._validar_username(username)
