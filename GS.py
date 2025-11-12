@@ -1,7 +1,6 @@
 """
 SISTEMA LINKEDIN EM SPA - REDES SOCIAIS PROFISSIONAIS
-Autor: Sistema de Gestão
-Data: 2025
+Autores: Eduardo Francisco Mauro Gonçalves RM: 561969, Gabriel Luchetta dos Santos RM: 561861
 Descrição: Sistema completo de rede social profissional com validações, 
 tratamento de exceções e estrutura de menu intuitiva.
 """
