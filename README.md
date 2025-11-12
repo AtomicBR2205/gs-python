@@ -12,8 +12,6 @@
 # 🌐 ProfessionalNet - Rede Profissional do Futuro
 ### Sistema de Rede Social Profissional em Python (CLI)
 
-**Autor:** Sistema de Gestão  
-**Data:** 2025  
 **Versão:** 1.0  
 **Linguagem:** Python 3.x  
 **Licença:** MIT  
