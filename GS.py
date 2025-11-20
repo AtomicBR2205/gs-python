@@ -1,5 +1,5 @@
 """
-SISTEMA LINKEDIN EM SPA - REDES SOCIAIS PROFISSIONAIS
+SISTEMA PROFESSIONALNET - REDE SOCIAL PROFISSIONAL
 Autor: Sistema de Gestão
 Data: 2025
 Descrição: Sistema completo de rede social profissional com validações, 
@@ -14,8 +14,8 @@ from typing import Dict, List, Optional, Tuple, Any, Generator
 from pathlib import Path
 
 
-class LinkedInSPA:
-    """Classe principal do sistema LinkedIn SPA - VERSÃO OTIMIZADA"""
+class ProfessionalNet:
+    """Classe principal do sistema ProfessionalNet - VERSÃO OTIMIZADA"""
     
     # Constantes de validação
     REGEX_EMAIL = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
@@ -127,7 +127,7 @@ class LinkedInSPA:
             self.conexoes['usuario2'] = ['usuario1']
             
             self.posts = [
-                {'id': 1, 'usuario': 'usuario1', 'autor_nome': 'João Silva', 'conteudo': 'Bem-vindo ao LinkedIn SPA! 🚀',
+                {'id': 1, 'usuario': 'usuario1', 'autor_nome': 'João Silva', 'conteudo': 'Bem-vindo ao ProfessionalNet! 🚀',
                  'data': agora, 'likes': [], 'comentarios': []},
                 {'id': 2, 'usuario': 'usuario2', 'autor_nome': 'Maria Santos', 
                  'conteudo': 'Adorando este novo sistema! 💼', 'data': agora, 'likes': ['usuario1'], 'comentarios': []}
@@ -649,7 +649,7 @@ class LinkedInSPA:
             print("\n" + "-" * 60)
             
             if post['usuario'] != self.usuario_logado:
-                print("1=Curtir | 2=Comentar | 3=Sair | ←/→=Nav")
+                print("1=Curtir | 2=Comentar | 3=Sair | </>=Nav")
                 opcao = input("\nOpção: ").strip()
                 
                 if opcao == '1':
@@ -663,7 +663,7 @@ class LinkedInSPA:
                 else:
                     indice = min(len(self.posts) - 1, indice + 1)
             else:
-                print("1=Deletar | 2=Sair | ←/→=Nav")
+                print("1=Deletar | 2=Sair | </>=Nav")
                 opcao = input("\nOpção: ").strip()
                 
                 if opcao == '1':
@@ -711,7 +711,7 @@ class LinkedInSPA:
         while not self.usuario_logado:
             self._limpar_tela()
             print("=" * 60)
-            print("🌐 LINKEDIN SPA")
+            print("🌐 PROFESSIONALNET")
             print("=" * 60)
             print("\n1️⃣  - Registrar")
             print("2️⃣  - Login")
@@ -769,7 +769,7 @@ class LinkedInSPA:
         try:
             self._limpar_tela()
             print("\n" + "╔" + "=" * 58 + "╗")
-            print("║" + "🌐 BEM-VINDO AO LINKEDIN SPA 🌐".center(58) + "║")
+            print("║" + "🌐 BEM-VINDO AO PROFESSIONALNET 🌐".center(56) + "║")
             print("║" + "Rede Social Profissional".center(58) + "║")
             print("╚" + "=" * 58 + "╝\n")
             
@@ -789,7 +789,7 @@ class LinkedInSPA:
 def main():
     """Função principal"""
     try:
-        sistema = LinkedInSPA()
+        sistema = ProfessionalNet()
         sistema.iniciar()
     except Exception as e:
         print(f"❌ Erro ao iniciar o sistema: {e}")

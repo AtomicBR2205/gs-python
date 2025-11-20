@@ -1,0 +1,562 @@
+{
+  "usuario1": {
+    "nome": "João Silva",
+    "email": "joao@example.com",
+    "senha": "123456",
+    "titulo": "Desenvolvedor Python",
+    "bio": "Apaixonado por programação",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario2": {
+    "nome": "Maria Santos",
+    "email": "maria@example.com",
+    "senha": "123456",
+    "titulo": "Designer UX/UI",
+    "bio": "Criando experiências incríveis",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario3": {
+    "nome": "Ana Costa",
+    "email": "ana.costa@example.com",
+    "senha": "123456",
+    "titulo": "Analista de Dados",
+    "bio": "Amante de desenvolvimento sustentável",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario4": {
+    "nome": "Bruno Martins",
+    "email": "bruno.martins@example.com",
+    "senha": "123456",
+    "titulo": "Gerente de Projetos",
+    "bio": "Focado em qualidade e excelência",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario5": {
+    "nome": "Carlos Oliveira",
+    "email": "carlos.oliveira@example.com",
+    "senha": "123456",
+    "titulo": "Especialista em Marketing",
+    "bio": "Colaborador e team player",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario6": {
+    "nome": "Diana Ferreira",
+    "email": "diana.ferreira@example.com",
+    "senha": "123456",
+    "titulo": "Arquiteto de Sistemas",
+    "bio": "Entusiasta de programação",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario7": {
+    "nome": "Eduardo Santos",
+    "email": "eduardo.santos@example.com",
+    "senha": "123456",
+    "titulo": "DevOps Engineer",
+    "bio": "Criando o futuro através da tecnologia",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario8": {
+    "nome": "Fernanda Lima",
+    "email": "fernanda.lima@example.com",
+    "senha": "123456",
+    "titulo": "Data Scientist",
+    "bio": "Dedicado ao aprendizado contínuo",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario9": {
+    "nome": "Gustavo Pereira",
+    "email": "gustavo.pereira@example.com",
+    "senha": "123456",
+    "titulo": "Front-end Developer",
+    "bio": "Profissional versátil e adaptável",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario10": {
+    "nome": "Helena Rocha",
+    "email": "helena.rocha@example.com",
+    "senha": "123456",
+    "titulo": "Back-end Developer",
+    "bio": "Transformando ideias em realidade",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario11": {
+    "nome": "Igor Mendes",
+    "email": "igor.mendes@example.com",
+    "senha": "123456",
+    "titulo": "Full Stack Developer",
+    "bio": "Conectando pessoas e soluções",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario12": {
+    "nome": "Juliana Gomes",
+    "email": "juliana.gomes@example.com",
+    "senha": "123456",
+    "titulo": "DBA - Database Administrator",
+    "bio": "Apaixonado por tecnologia e inovação",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario13": {
+    "nome": "Kevin Alves",
+    "email": "kevin.alves@example.com",
+    "senha": "123456",
+    "titulo": "Consultor de TI",
+    "bio": "Sempre buscando novos desafios profissionais",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario14": {
+    "nome": "Larissa Dias",
+    "email": "larissa.dias@example.com",
+    "senha": "123456",
+    "titulo": "Gestor de Recursos Humanos",
+    "bio": "Especialista em soluções criativas",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario15": {
+    "nome": "Matheus Correia",
+    "email": "matheus.correia@example.com",
+    "senha": "123456",
+    "titulo": "Especialista em Segurança",
+    "bio": "Amante de desenvolvimento sustentável",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario16": {
+    "nome": "Natalia Souza",
+    "email": "natalia.souza@example.com",
+    "senha": "123456",
+    "titulo": "Product Manager",
+    "bio": "Focado em qualidade e excelência",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario17": {
+    "nome": "Otavio Carvalho",
+    "email": "otavio.carvalho@example.com",
+    "senha": "123456",
+    "titulo": "Scrum Master",
+    "bio": "Colaborador e team player",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario18": {
+    "nome": "Patricia Ribeiro",
+    "email": "patricia.ribeiro@example.com",
+    "senha": "123456",
+    "titulo": "QA Engineer",
+    "bio": "Entusiasta de programação",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario19": {
+    "nome": "Quentin Barbosa",
+    "email": "quentin.barbosa@example.com",
+    "senha": "123456",
+    "titulo": "Ilustrador Digital",
+    "bio": "Criando o futuro através da tecnologia",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario20": {
+    "nome": "Rafaela Campos",
+    "email": "rafaela.campos@example.com",
+    "senha": "123456",
+    "titulo": "Redator Técnico",
+    "bio": "Dedicado ao aprendizado contínuo",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario21": {
+    "nome": "Samuel Costa",
+    "email": "samuel.costa@example.com",
+    "senha": "123456",
+    "titulo": "Especialista em Cloud",
+    "bio": "Profissional versátil e adaptável",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario22": {
+    "nome": "Tania Monteiro",
+    "email": "tania.monteiro@example.com",
+    "senha": "123456",
+    "titulo": "Mobile Developer",
+    "bio": "Transformando ideias em realidade",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario23": {
+    "nome": "Ulisses Rodrigues",
+    "email": "ulisses.rodrigues@example.com",
+    "senha": "123456",
+    "titulo": "Desenvolvedor Python",
+    "bio": "Conectando pessoas e soluções",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario24": {
+    "nome": "Vanessa Duarte",
+    "email": "vanessa.duarte@example.com",
+    "senha": "123456",
+    "titulo": "Designer UX/UI",
+    "bio": "Apaixonado por tecnologia e inovação",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario25": {
+    "nome": "Wagner Nunes",
+    "email": "wagner.nunes@example.com",
+    "senha": "123456",
+    "titulo": "Engenheiro de Software",
+    "bio": "Sempre buscando novos desafios profissionais",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario26": {
+    "nome": "Ximena Lopez",
+    "email": "ximena.lopez@example.com",
+    "senha": "123456",
+    "titulo": "Analista de Dados",
+    "bio": "Especialista em soluções criativas",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario27": {
+    "nome": "Yasmin Azevedo",
+    "email": "yasmin.azevedo@example.com",
+    "senha": "123456",
+    "titulo": "Gerente de Projetos",
+    "bio": "Amante de desenvolvimento sustentável",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario28": {
+    "nome": "Zoe Machado",
+    "email": "zoe.machado@example.com",
+    "senha": "123456",
+    "titulo": "Especialista em Marketing",
+    "bio": "Focado em qualidade e excelência",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario29": {
+    "nome": "Adriana Teles",
+    "email": "adriana.teles@example.com",
+    "senha": "123456",
+    "titulo": "Arquiteto de Sistemas",
+    "bio": "Colaborador e team player",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario30": {
+    "nome": "Bernardo Silva",
+    "email": "bernardo.silva@example.com",
+    "senha": "123456",
+    "titulo": "DevOps Engineer",
+    "bio": "Entusiasta de programação",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario31": {
+    "nome": "Camila Rosa",
+    "email": "camila.rosa@example.com",
+    "senha": "123456",
+    "titulo": "Data Scientist",
+    "bio": "Criando o futuro através da tecnologia",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario32": {
+    "nome": "Daphne Oliveira",
+    "email": "daphne.oliveira@example.com",
+    "senha": "123456",
+    "titulo": "Front-end Developer",
+    "bio": "Dedicado ao aprendizado contínuo",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario33": {
+    "nome": "Emerson Costa",
+    "email": "emerson.costa@example.com",
+    "senha": "123456",
+    "titulo": "Back-end Developer",
+    "bio": "Profissional versátil e adaptável",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario34": {
+    "nome": "Fabiana Souza",
+    "email": "fabiana.souza@example.com",
+    "senha": "123456",
+    "titulo": "Full Stack Developer",
+    "bio": "Transformando ideias em realidade",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario35": {
+    "nome": "Gilson Pereira",
+    "email": "gilson.pereira@example.com",
+    "senha": "123456",
+    "titulo": "DBA - Database Administrator",
+    "bio": "Conectando pessoas e soluções",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario36": {
+    "nome": "Hercules Santos",
+    "email": "hercules.santos@example.com",
+    "senha": "123456",
+    "titulo": "Consultor de TI",
+    "bio": "Apaixonado por tecnologia e inovação",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario37": {
+    "nome": "Iris Almeida",
+    "email": "iris.almeida@example.com",
+    "senha": "123456",
+    "titulo": "Gestor de Recursos Humanos",
+    "bio": "Sempre buscando novos desafios profissionais",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario38": {
+    "nome": "Jeferson Martins",
+    "email": "jeferson.martins@example.com",
+    "senha": "123456",
+    "titulo": "Especialista em Segurança",
+    "bio": "Especialista em soluções criativas",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario39": {
+    "nome": "Katarina Dias",
+    "email": "katarina.dias@example.com",
+    "senha": "123456",
+    "titulo": "Product Manager",
+    "bio": "Amante de desenvolvimento sustentável",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario40": {
+    "nome": "Leonardo Campos",
+    "email": "leonardo.campos@example.com",
+    "senha": "123456",
+    "titulo": "Scrum Master",
+    "bio": "Focado em qualidade e excelência",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario41": {
+    "nome": "Mariana Rocha",
+    "email": "mariana.rocha@example.com",
+    "senha": "123456",
+    "titulo": "QA Engineer",
+    "bio": "Colaborador e team player",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario42": {
+    "nome": "Norberto Lima",
+    "email": "norberto.lima@example.com",
+    "senha": "123456",
+    "titulo": "Ilustrador Digital",
+    "bio": "Entusiasta de programação",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario43": {
+    "nome": "Octavia Ferreira",
+    "email": "octavia.ferreira@example.com",
+    "senha": "123456",
+    "titulo": "Redator Técnico",
+    "bio": "Criando o futuro através da tecnologia",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario44": {
+    "nome": "Pompeia Gomes",
+    "email": "pompeia.gomes@example.com",
+    "senha": "123456",
+    "titulo": "Especialista em Cloud",
+    "bio": "Dedicado ao aprendizado contínuo",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario45": {
+    "nome": "Quasimodo Vargas",
+    "email": "quasimodo.vargas@example.com",
+    "senha": "123456",
+    "titulo": "Mobile Developer",
+    "bio": "Profissional versátil e adaptável",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario46": {
+    "nome": "Rosangela Pinto",
+    "email": "rosangela.pinto@example.com",
+    "senha": "123456",
+    "titulo": "Desenvolvedor Python",
+    "bio": "Transformando ideias em realidade",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario47": {
+    "nome": "Sheila Castro",
+    "email": "sheila.castro@example.com",
+    "senha": "123456",
+    "titulo": "Designer UX/UI",
+    "bio": "Conectando pessoas e soluções",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario48": {
+    "nome": "Tiago Morais",
+    "email": "tiago.morais@example.com",
+    "senha": "123456",
+    "titulo": "Engenheiro de Software",
+    "bio": "Apaixonado por tecnologia e inovação",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario49": {
+    "nome": "Urania Neves",
+    "email": "urania.neves@example.com",
+    "senha": "123456",
+    "titulo": "Analista de Dados",
+    "bio": "Sempre buscando novos desafios profissionais",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario50": {
+    "nome": "Vicente Barbosa",
+    "email": "vicente.barbosa@example.com",
+    "senha": "123456",
+    "titulo": "Gerente de Projetos",
+    "bio": "Especialista em soluções criativas",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario51": {
+    "nome": "Wanda Ramos",
+    "email": "wanda.ramos@example.com",
+    "senha": "123456",
+    "titulo": "Especialista em Marketing",
+    "bio": "Amante de desenvolvimento sustentável",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario52": {
+    "nome": "Xavier Fontes",
+    "email": "xavier.fontes@example.com",
+    "senha": "123456",
+    "titulo": "Arquiteto de Sistemas",
+    "bio": "Focado em qualidade e excelência",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario53": {
+    "nome": "Yara Mendes",
+    "email": "yara.mendes@example.com",
+    "senha": "123456",
+    "titulo": "DevOps Engineer",
+    "bio": "Colaborador e team player",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "usuario54": {
+    "nome": "Zilda Moraes",
+    "email": "zilda.moraes@example.com",
+    "senha": "123456",
+    "titulo": "Data Scientist",
+    "bio": "Entusiasta de programação",
+    "data_criacao": "17/11/2025 15:08",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "TESTE": {
+    "nome": "TESTE DA SILVA",
+    "email": "teste.teste@gmail.com",
+    "senha": "TESTE1234",
+    "titulo": "TESTE EM TESTES",
+    "bio": "SSSSSSSSSSSSSSSSSSSSSSSSS",
+    "data_criacao": "17/11/2025 15:16",
+    "seguidores": [],
+    "seguindo": []
+  },
+  "teste3": {
+    "nome": "aatt",
+    "email": "teste3@gmail.com",
+    "senha": "Teste1234",
+    "titulo": "tee",
+    "bio": "ss",
+    "data_criacao": "19/11/2025 21:37",
+    "seguidores": [],
+    "seguindo": []
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "usuario": "usuario1",
+    "autor_nome": "João Silva",
+    "conteudo": "Bem-vindo ao ProfessionalNet! 🚀",
+    "data": "17/11/2025 15:08",
+    "likes": [],
+    "comentarios": []
+  },
+  {
+    "id": 2,
+    "usuario": "usuario2",
+    "autor_nome": "Maria Santos",
+    "conteudo": "Adorando este novo sistema! 💼",
+    "data": "17/11/2025 15:08",
+    "likes": [
+      "usuario1"
+    ],
+    "comentarios": []
+  }
+]
