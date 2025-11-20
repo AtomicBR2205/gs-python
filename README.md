@@ -8,6 +8,7 @@
 | Gabriel Luchetta dos Santos | RM561861 |
 
 ## 🔗 Link do Repositório: [(https://github.com/AtomicBR2205/gs-python)]
+## 🔗 Link do Video [https://youtu.be/7EhlOO3K3A8]
 
 # 🌐 ProfessionalNet - Rede Profissional do Futuro
 ### Sistema de Rede Social Profissional em Python (CLI)

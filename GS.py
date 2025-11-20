@@ -1,7 +1,6 @@
 """
-SISTEMA PROFESSIONALNET - REDE SOCIAL PROFISSIONAL
-Autor: Sistema de Gestão
-Data: 2025
+SISTEMA LINKEDIN EM SPA - REDES SOCIAIS PROFISSIONAIS
+Autores: Eduardo Francisco Mauro Gonçalves RM: 561969, Gabriel Luchetta dos Santos RM: 561861
 Descrição: Sistema completo de rede social profissional com validações, 
 tratamento de exceções e estrutura de menu intuitiva.
 """
@@ -14,8 +13,8 @@ from typing import Dict, List, Optional, Tuple, Any, Generator
 from pathlib import Path
 
 
-class ProfessionalNet:
-    """Classe principal do sistema ProfessionalNet - VERSÃO OTIMIZADA"""
+class LinkedInSPA:
+    """Classe principal do sistema LinkedIn SPA - VERSÃO OTIMIZADA"""
     
     # Constantes de validação
     REGEX_EMAIL = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
@@ -127,7 +126,7 @@ class ProfessionalNet:
             self.conexoes['usuario2'] = ['usuario1']
             
             self.posts = [
-                {'id': 1, 'usuario': 'usuario1', 'autor_nome': 'João Silva', 'conteudo': 'Bem-vindo ao ProfessionalNet! 🚀',
+                {'id': 1, 'usuario': 'usuario1', 'autor_nome': 'João Silva', 'conteudo': 'Bem-vindo ao LinkedIn SPA! 🚀',
                  'data': agora, 'likes': [], 'comentarios': []},
                 {'id': 2, 'usuario': 'usuario2', 'autor_nome': 'Maria Santos', 
                  'conteudo': 'Adorando este novo sistema! 💼', 'data': agora, 'likes': ['usuario1'], 'comentarios': []}
@@ -160,7 +159,7 @@ class ProfessionalNet:
         return True, "Válida"
     
     def _validar_username(self, username: str) -> Tuple[bool, str]:
-        """Valida username"""
+        """Valida usuário"""
         username = username.strip()
         if len(username) < self.MIN_USERNAME_LEN:
             return False, f"Mín. {self.MIN_USERNAME_LEN} caracteres"
@@ -189,7 +188,7 @@ class ProfessionalNet:
         print("=" * 60)
         
         try:
-            # Username
+            # Usuário
             while True:
                 username = input("\n👤 Username: ").strip()
                 valido, msg = self._validar_username(username)
@@ -649,7 +648,7 @@ class ProfessionalNet:
             print("\n" + "-" * 60)
             
             if post['usuario'] != self.usuario_logado:
-                print("1=Curtir | 2=Comentar | 3=Sair | </>=Nav")
+                print("1=Curtir | 2=Comentar | 3=Sair | ←/→=Nav")
                 opcao = input("\nOpção: ").strip()
                 
                 if opcao == '1':
@@ -663,7 +662,7 @@ class ProfessionalNet:
                 else:
                     indice = min(len(self.posts) - 1, indice + 1)
             else:
-                print("1=Deletar | 2=Sair | </>=Nav")
+                print("1=Deletar | 2=Sair | ←/→=Nav")
                 opcao = input("\nOpção: ").strip()
                 
                 if opcao == '1':
@@ -711,7 +710,7 @@ class ProfessionalNet:
         while not self.usuario_logado:
             self._limpar_tela()
             print("=" * 60)
-            print("🌐 PROFESSIONALNET")
+            print("🌐 LINKEDIN SPA")
             print("=" * 60)
             print("\n1️⃣  - Registrar")
             print("2️⃣  - Login")
@@ -769,7 +768,7 @@ class ProfessionalNet:
         try:
             self._limpar_tela()
             print("\n" + "╔" + "=" * 58 + "╗")
-            print("║" + "🌐 BEM-VINDO AO PROFESSIONALNET 🌐".center(56) + "║")
+            print("║" + "🌐 BEM-VINDO AO LINKEDIN SPA 🌐".center(58) + "║")
             print("║" + "Rede Social Profissional".center(58) + "║")
             print("╚" + "=" * 58 + "╝\n")
             
@@ -789,7 +788,7 @@ class ProfessionalNet:
 def main():
     """Função principal"""
     try:
-        sistema = ProfessionalNet()
+        sistema = LinkedInSPA()
         sistema.iniciar()
     except Exception as e:
         print(f"❌ Erro ao iniciar o sistema: {e}")
